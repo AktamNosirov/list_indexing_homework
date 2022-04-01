@@ -10,5 +10,7 @@ def main(list_num):
         return list_num[0]
     if list_num[0]<list_num[-1] :
         return list_num[-1]
-list_num=[1,2,3,4,57,8,17]
+    if list_num[0]==list_num[-1] :
+        return list_num[0:1:-1]
+list_num=[1,2,3,4,57,8,1]
 print(main(list_num))
