@@ -20,5 +20,5 @@ def main(list1):
     else: 
         return False
     
-list1=["a","a","a","a","a"]
+list1=[1,1,1,0,1]
 print(main(list1))
