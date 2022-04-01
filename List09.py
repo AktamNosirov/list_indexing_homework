@@ -6,4 +6,19 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    ind=0
+    b=list1[ind]
+    ind+=1 
+    if list1[ind]==b :
+        ind+=1
+    if list1[ind]==b :
+        ind+=1
+    if list1[ind]==b :
+        ind+=1
+    if list1[ind]==b :
+        return True
+    else: 
+        return False
+    
+list1=["a","a","a","a","a"]
+print(main(list1))
