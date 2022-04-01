@@ -9,28 +9,18 @@ def main(list1):
     ind=0
     if list1[ind]==1 :
         list1[ind]=True
-    else:
-        list1[ind]=0
     ind+=1
     if list1[ind]==1 :
         list1[ind]=True
-    else:
-        list1[ind]=0 
     ind+=1   
     if list1[ind]==1 :
         list1[ind]=True
-    else:
-        list1[ind]=0
     ind+=1
     if list1[ind]==1 :
         list1[ind]=True
-    else:
-        list1[ind]=0
     ind+=1
     if list1[ind]==1 :
         list1[ind]=True
-    else:
-        list1[ind]=0
     return list1
         
 list1=[0,0,0,0,0]
