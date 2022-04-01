@@ -31,7 +31,7 @@ def main(list1):
         list1[ind]=True
     else:
         list1[ind]=0
-        return list1
+    return list1
         
 list1=[0,0,0,0,0]
 print(main(list1))
