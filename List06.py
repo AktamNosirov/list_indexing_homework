@@ -8,30 +8,20 @@ def main(list1):
     """
     ind=0
     if list1[ind]==1 :
-        list1[ind]="true"
-    else:
-        list1[ind]=0
+        list1[ind]=True
     ind+=1
     if list1[ind]==1 :
-        list1[ind]='true' 
-    else:
-        list1[ind]=0
+        list1[ind]=True 
     ind+=1   
     if list1[ind]==1 :
-        list1[ind]='true'
-    else:
-        list1[ind]=0    
+        list1[ind]=True
     ind+=1
     if list1[ind]==1 :
-        list1[ind]='true'
-    else:
-        list1[ind]=0
+        list1[ind]=True
     ind+=1
     if list1[ind]==1 :
-        list1[ind]='true'
-    else:
-        list1[ind]=0
+        list1[ind]=True
         return list1
         
-list1=[1,1,1,1,1]
+list1=[0,1,1,0,1]
 print(main(list1))
