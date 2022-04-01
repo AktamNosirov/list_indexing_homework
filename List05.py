@@ -7,4 +7,9 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+    return list1[i]
+list1=["fsdg",346]
+
+print(main(list1,0))
+
+
