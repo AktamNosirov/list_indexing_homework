@@ -23,5 +23,5 @@ def main(list1):
         list1[ind]=True
     return list1
         
-list1=[0,0,0,0,0]
+list1=[0,0,2,0,1]
 print(main(list1))
