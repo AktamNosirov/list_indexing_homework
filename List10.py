@@ -8,7 +8,7 @@ def main(list_num):
     """
     if list_num[0]>list_num[-1] :
         return list_num[0]
-    elif list_num[0]<list_num[-1] :
+    else:
         return list_num[-1]
     
 list_num=[1,2,3,4,57,8,1]
