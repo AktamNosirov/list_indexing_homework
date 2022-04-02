@@ -49,5 +49,5 @@ print(main(list1))
     else: 
         return False
     
-list1=[1,1,1,True,1]
+list1=[1,1,1,True,1,1]
 print(main(list1))
