@@ -12,20 +12,26 @@ def main(list1):
     ind+=1 
     if list1[ind]==b and type(list1[ind])==type(b):
         pass
-    ind+=1
-    if list1[ind]==b and type(list1[ind])==type(b):
-        pass
-    ind+=1
-    if list1[ind]==b and type(list1[ind])==type(b):
-        pass
+    else: 
+        a=False
     ind+=1
     if list1[ind]==b and type(list1[ind])==type(b):
         pass
     else: 
         a=False
+    ind+=1
+    if list1[ind]==b and type(list1[ind])==type(b):
+        pass
+    else: 
+        a=False
+    ind+=1
+    if list1[ind]==b and type(list1[ind])==type(b):
+        a=True
+    else: 
+        a=False
     return a
     
-list1=[1,True,1,True,1,1]
+list1=[1,True,1,True,1]
 print(main(list1))
 
 """def main(list1):
