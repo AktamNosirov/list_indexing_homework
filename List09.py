@@ -40,14 +40,20 @@ print(main(list1))
     ind+=1 
     if list1[ind]==b and type(list1[ind])==type(b) :
         ind+=1
-    if list1[ind]==b and type(list1[ind])==type(b):
-        ind+=1
-    if list1[ind]==b and type(list1[ind])==type(b):
-        ind+=1
-    if list1[ind]==b and type(list1[ind])==type(b):
-        return True
+        if list1[ind]==b and type(list1[ind])==type(b):
+            ind+=1
+            if list1[ind]==b and type(list1[ind])==type(b):
+                ind+=1
+                if list1[ind]==b and type(list1[ind])==type(b):
+                    return True
+                else: 
+                    return False
+            else: 
+                return False
+        else: 
+            return False
     else: 
         return False
     
-list1=[1,1,1,True,1,1]
+list1=[1,1,1,True,1]
 print(main(list1))
