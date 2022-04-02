@@ -12,18 +12,12 @@ def main(list1):
     ind+=1 
     if list1[ind]==b and type(list1[ind])==type(b):
         pass
-    else: 
-        a=False
     ind+=1
     if list1[ind]==b and type(list1[ind])==type(b):
         pass
-    else: 
-        a=False
     ind+=1
     if list1[ind]==b and type(list1[ind])==type(b):
         pass
-    else: 
-        a=False
     ind+=1
     if list1[ind]==b and type(list1[ind])==type(b):
         pass
