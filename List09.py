@@ -35,16 +35,12 @@ list1=[1,True,1,True,1]
 print(main(list1))
 
 """
-    ind=0
-    b=list1[ind]
-    ind+=1 
-    if list1[ind]==b and type(list1[ind])==type(b) :
-        ind+=1
-        if list1[ind]==b and type(list1[ind])==type(b):
-            ind+=1
-            if list1[ind]==b and type(list1[ind])==type(b):
-                ind+=1
-                if list1[ind]==b and type(list1[ind])==type(b):
+    
+    b=list1[0]
+    if list1[1]==b and type(list1[1])==type(b) :
+        if list1[2]==b and type(list1[2])==type(b):
+            if list1[3]==b and type(list1[3])==type(b):
+                if list1[4]==b and type(list1[4])==type(b):
                     return True
                 else: 
                     return False
