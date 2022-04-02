@@ -6,7 +6,7 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    a=True
+    """ a=True
     ind=0
     b=list1[ind]
     ind+=1 
@@ -34,8 +34,7 @@ def main(list1):
 list1=[1,True,1,True,1]
 print(main(list1))
 
-"""def main(list1):
-   
+"""
     ind=0
     b=list1[ind]
     ind+=1 
@@ -50,5 +49,5 @@ print(main(list1))
     else: 
         return False
     
-list1=[1,True,1,True,1]
-print(main(list1))"""
+list1=[1,1,1,True,1]
+print(main(list1))
