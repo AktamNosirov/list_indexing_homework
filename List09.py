@@ -31,5 +31,24 @@ def main(list1):
         a=False
     return a
     
-list1=[1,True,1,True,1]
+list1=[1,True,1,True,1,1]
 print(main(list1))
+
+"""def main(list1):
+   
+    ind=0
+    b=list1[ind]
+    ind+=1 
+    if list1[ind]==b and type(list1[ind])==type(b) :
+        ind+=1
+    if list1[ind]==b and type(list1[ind])==type(b):
+        ind+=1
+    if list1[ind]==b and type(list1[ind])==type(b):
+        ind+=1
+    if list1[ind]==b and type(list1[ind])==type(b):
+        return True
+    else: 
+        return False
+    
+list1=[1,True,1,True,1]
+print(main(list1))"""
